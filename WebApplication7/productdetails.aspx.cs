@@ -32,7 +32,6 @@ namespace WebApplication7
             DataList1.DataSource = ds;
             DataList1.DataBind();
 
-           // con.Close();
         }
 
         protected void Page_Load(object sender, EventArgs e)
