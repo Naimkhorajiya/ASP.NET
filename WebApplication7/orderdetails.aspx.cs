@@ -86,9 +86,6 @@ namespace WebApplication7
                     Convert.ToInt32(Request.QueryString["oid"]), con);
 
                 cmd.ExecuteNonQuery();
-
-              
-
                 Session["cart"] = null;
 
                 lblMessage.Text = "Order placed successfully!";
