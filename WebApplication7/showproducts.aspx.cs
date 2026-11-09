@@ -43,7 +43,6 @@ namespace WebApplication7
             DataList1.DataSource = ds;
             DataList1.DataBind();
 
-            con.Close();
         }
 
         protected void DataList1_ItemCommand(object source, DataListCommandEventArgs e)
@@ -114,7 +113,6 @@ namespace WebApplication7
                     Session["cart"] = dt;
                 }
 
-                con.Close();
 
                 Response.Redirect("cart.aspx");
             }
